@@ -1,6 +1,7 @@
 public class binarysearch {
 
     public static int binarySearch(int arrray[], int key){
+        //time complexity of binary search is k=log n at base 2
 
         int start=0, end= arrray.length-1 , mid;
 
